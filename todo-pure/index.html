@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<!-- Meta Tags -->
+		<meta name="keywords" content=""/>
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<meta name="description" content="Bem vindo ao TodoList, um sistema para gerenciar as suas tarefas." />
+		<meta name="robots" content="index,follow" />
+
+		<!-- FavIcon -->
+		<link rel="shortcut icon" href="./assets/images/favicon.png">
+		<title>Todo List</title>
+		<!-- Materialize -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
+		<!-- Generics -->
+		<link rel="stylesheet" href="./assets/css/generic/generic.css">
+		<!-- Components -->
+		<link rel="stylesheet" href="./assets/css/components/header-page.css">
+		<link rel="stylesheet" href="./assets/css/components/footer-page.css">
+		<link rel="stylesheet" href="./assets/css/components/index-items.css">
+	</head>
+	<body>
+		<header>
+			<nav class="nav-bar indigo darken-3">
+				<div class="container">
+					<div class="nav-wrapper">
+						<a href="index.html">
+							<div class="brand-logo">
+								<img src="./assets/images/logo-todo.svg" alt="Todo List Icon" />
+								<h2>Todo Puro</h2>
+							</div>
+						</a>
+						<ul class="right hide-on-med-and-down">
+							<li class="active"><a href="index.html">Principal</a></li>
+							<li><a href="register.html">Novo Todo</a></li>
+							<li><a href="about.html">Sobre</a></li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+		</header>
+		<section id="index-items" class="first-session">
+			<div class="container">
+				<h1 class="center">Lista de Tarefas</h1>
+				<h5 class="center">Clique em um item para excluí-lo!</h5>
+				<ul class="collection"></ul>
+			</div>
+		</section>
+		<footer class="page-footer indigo darken-3">
+			<div class="container">
+				<div class="row">
+					<div class="col l12 s12 center">
+						<h5 class="white-text">Todo Puro</h5>
+						<p class="grey-text text-lighten-4">Demonstração de um TodoList puro apenas com HTML, CSS e JS.</p>
+					</div>
+				</div>
+			</div>
+			<div class="footer-copyright">
+				<div class="container">
+					© 2018 Todos os Direitos Reservados
+				</div>
+			</div>
+		</footer>
+		<script src="./js/app.js"></script>
+	</body>
+</html>
